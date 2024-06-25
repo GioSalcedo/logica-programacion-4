@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        font-family: "Dosis", sans-serif;
+        font-optical-sizing: auto;
+      }
+    </style>
+    <title>Logica-programación-3</title>
+  </head>
+  <body class="container bg-body-secondary">
+    <section
+      class="container bg-success rounded text-white my-1 text-center border-black"
+    >
+      <h1 class="h1 px-auto">Logica de Programación 👌</h1>
+      <h2 class="h2 px-auto">FIBONACCI</h2>
+
+      <form class="p-2">
+        <div class="mb-3">
+          <label for="number" class="form-text text-white"
+            >Ingresa un número, para generar Fibonacci</label
+          >
+          <input
+            class="rounded form-control"
+            type="number"
+            id="input-number"
+            placeholder="Ingresa un número, para generar Fibonacci 🤓"
+          />
+        </div>
+        <button class="btn btn-outline-light" id="btn-submit">
+          Enviar número
+        </button>
+      </form>
+
+      <div class="text-white bg-success rounded fs-3" id="result"></div>
+
+      <script src="app.js"></script>
+    </section>
+  </body>
+</html>
