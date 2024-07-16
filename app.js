@@ -4,7 +4,13 @@ const resultElement = document.getElementById("result");
 
 btnSubmit.addEventListener('click', (event) => {
   event.preventDefault();
+    
 
+
+
+
+
+  
   const number = parseInt(inputNumber.value);
   if (isNaN(number) || number < 1) {
     resultElement.textContent = "Por favor, ingrese un número válido.";
